@@ -1,2 +1,2 @@
 # hello-world
-*bilibiliBackground.jpg **A background for bilibili.**
+*biliBackground **A background for a Tampermonkey script.**
