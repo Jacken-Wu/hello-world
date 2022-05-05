@@ -2,23 +2,3 @@
 
 * biliBackground **A background for a Tampermonkey script.**
 
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-caaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-daaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 
-eaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
-faaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
-哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢
-啊啊啊啊啊啊啊啊啊 
-噢噢噢噢噢噢噢噢噢噢噢噢
-aaa
-aaa
-aaa
-aaa 
-aaa 
-aaa 
-aaa   
-aaa  
-aaa  
-aaa
