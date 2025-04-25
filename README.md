@@ -1,4 +1,6 @@
 # hello-world
 
 * biliBackground  
-  A background for a Tampermonkey script.
+  Background images for a Tampermonkey script.
+* components_lib  
+  Record my electrical components states.
