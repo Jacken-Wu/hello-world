@@ -30,7 +30,7 @@ M3螺丝^split^螺丝^split^3*8^split^-^split^几十
 M3螺丝^split^螺丝^split^3*16^split^-^split^几十
 M3螺母^split^螺母^split^M3^split^-^split^几十
 PH2.0公口^split^接口^split^-^split^-^split^9
-PH2.0母口^split^接口^split^-^split^-^split^3
+PH2.0母口^split^接口^split^-^split^-^split^4
 S8050^split^三极管^split^25V/500mA/NPN^split^SOT-23^split^几十
 S8050^split^三极管^split^-^split^TO-92-3（直插）^split^几十
 SN74HC00N^split^逻辑门^split^与非门^split^DIP-14^split^10
@@ -50,7 +50,7 @@ X9312W^split^数字电位器^split^10k^split^DIP-8^split^7
 拨码开关^split^开关^split^3位^split^2.54mm贴片^split^2
 按键开关（不弹起）^split^开关^split^6P^split^-^split^9
 按键开关（弹起）^split^开关^split^4P^split^-^split^8
-排插座^split^排插座^split^15P^split^2.54mm^split^4
+排插座^split^排插座^split^15P^split^2.54mm^split^2
 排针^split^排针^split^8P^split^2.54mm^split^十几
 数码管^split^数码管^split^1位/共阴^split^2.54mm/2*5P^split^10
 无缘蜂鸣器^split^蜂鸣器^split^16欧^split^直插^split^4
