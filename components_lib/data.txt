@@ -50,7 +50,7 @@ X9312W^split^数字电位器^split^10k^split^DIP-8^split^7
 拨码开关^split^开关^split^3位^split^2.54mm贴片^split^2
 按键开关（不弹起）^split^开关^split^6P^split^-^split^9
 按键开关（弹起）^split^开关^split^4P^split^-^split^8
-排插座^split^排插座^split^15P^split^2.54mm^split^4
+排插座^split^排插座^split^15P^split^2.54mm^split^2
 排针^split^排针^split^8P^split^2.54mm^split^十几
 数码管^split^数码管^split^1位/共阴^split^2.54mm/2*5P^split^10
 无缘蜂鸣器^split^蜂鸣器^split^16欧^split^直插^split^4
