@@ -41,9 +41,6 @@ def add_data():
     elif name == ':q':
         print('已中断操作')
         return
-    elif name in [line[0] for line in data]:
-        print('元件名称已存在！')
-        return
     type_ = input('请输入元件类型：')
     if type_ == '':
         print('元件类型不能为空，已中断操作')
