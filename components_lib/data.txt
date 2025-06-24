@@ -1,4 +1,4 @@
-1N4001^split^二极管^split^-^split^直插^split^几十（没找到）
+1N4001^split^二极管^split^-^split^SOD-123FL^split^几十
 1N5819^split^二极管^split^-^split^直插^split^几十
 310电机^split^电机^split^3/5/6/9V^split^-^split^1
 34063^split^DC-DC^split^-^split^DIP-8^split^8
