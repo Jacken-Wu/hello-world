@@ -32,7 +32,7 @@ M3螺丝^split^螺丝^split^3*8^split^-^split^几十
 M3螺丝^split^螺丝^split^3*16^split^-^split^几十
 M3螺母^split^螺母^split^M3^split^-^split^几十
 PH2.0公口^split^接口^split^2pin带线^split^-^split^8
-PH2.0公口^split^接口^split^4pin带线^split^PH2.0^split^8
+PH2.0公口^split^接口^split^4pin带线^split^PH2.0^split^3
 PH2.0母口^split^接口^split^2pin带线^split^-^split^2
 PH2.0母座^split^接口^split^4pin^split^PH2.0^split^几十
 S8050^split^三极管^split^25V/500mA/NPN^split^SOT-23^split^几十
