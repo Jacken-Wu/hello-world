@@ -83,8 +83,8 @@ def del_data():
         name = data_show[int(num) - 1][0]
         print('你确定要删除元件' + name + '吗？(y/n)')
         if input().lower() == 'y':
+            data = [line for line in data if line != data_show[int(num) - 1]]
             data_show.remove(data_show[int(num) - 1])
-            data = [line for line in data if line[0] != name]
             print('删除成功')
         else:
             print('取消删除')
@@ -109,7 +109,7 @@ def change_num():
         if input().lower() == 'y':
             number = input('请输入新的数量：')
             data_show[int(num) - 1][4] = number
-            data = [line if line[0] != name else [line[0], line[1], line[2], line[3], number] for line in data]
+            data = [line if line[:4] != data_show[int(num) - 1][:4] else [line[0], line[1], line[2], line[3], number] for line in data]
             print(data)
 
 
