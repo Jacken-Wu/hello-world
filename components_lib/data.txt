@@ -110,7 +110,6 @@ XT30U^split^接口^split^公头不带线^split^XT30U^split^4
 电解电容^split^电容^split^10V/470uF^split^直插^split^9
 电解电容^split^电容^split^50V/4.7uF^split^直插^split^10
 电解电容^split^电容^split^50V/1uF^split^直插^split^10
-电解电容^split^电容^split^16V/100uF^split^直插^split^2
 电解电容^split^电容^split^25V/22uF^split^直插^split^6
 电解电容^split^电容^split^16V/33uF^split^直插^split^8
 电解电容^split^电容^split^10V/220uF^split^直插^split^10
