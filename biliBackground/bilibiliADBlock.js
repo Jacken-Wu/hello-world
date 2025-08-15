@@ -19,7 +19,14 @@
             const b = a.querySelector('div.bili-video-card.is-rcmd');
             if (b && !b.classList.contains('enable-no-interest')) {
                 console.log(a, 'removed');
-                a.remove();
+                a.style.display = "none";
+            }
+        });
+        document.querySelectorAll('div.bili-feed-card').forEach(a => {
+            const b = a.querySelector('div.bili-video-card.is-rcmd');
+            if (b && !b.classList.contains('enable-no-interest')) {
+                console.log(a, 'removed');
+                a.style.display = "none";
             }
         });
     };

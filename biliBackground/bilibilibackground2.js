@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         bilibilibackground2
+// @name         bilibiliStyle
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  更换bilibili的背景图片
+// @description  修改bilibili样式
 // @author       -墓场-
 
 // @match        https://www.bilibili.com
@@ -15,9 +15,9 @@
 
 var css = `
 .bili-header__banner{
-background-image: url(https://raw.githubusercontent.com/Jacken-Wu/hello-world/main/biliBackground/bilibiliHead2.jpg) !important;
-max-height: 400px !important;
-height: 400px !important;
+background-color: rgb(255, 255, 255, 0) !important;
+max-height: 180px !important;
+height: 180px !important;
 }
 .bili-header__bar{background: linear-gradient(rgb(150, 150, 150, 1), rgb(150, 150, 150, 0)) !important;}
 .bili-header__channel{
@@ -39,23 +39,32 @@ padding: 7px;
 }
 `;
 
-var logo = `
-<div style="width:290px;height:50px;top:210px;left:80px;position:absolute">
-<img src="https://raw.githubusercontent.com/Jacken-Wu/hello-world/main/biliBackground/tittle2.png" style="width:100%;height:100%;">
-</div>
-`;
-
 (() => {
     var style = document.createElement("style");
     style.innerText = css;
     document.head.appendChild(style);
 
     setTimeout(() => {
-        document.getElementsByClassName('bili-header__banner')[0].innerHTML = logo;
+        document.getElementsByClassName('bili-header__banner')[0].innerHTML = "";
 
-        var rec = document.getElementsByClassName("recommended-swipe-body")[0];
-        rec.style.height = "550px";
-        rec.innerHTML = "<iframe src='https://kimi.moonshot.cn/' style='width:100%;height:100%;'>";
-        console.log(rec);
+        var ad = document.getElementsByClassName("recommended-swipe")[0];
+        ad.remove();
     }, 1000);
+
+
+    const checkMarginTop = () => {
+
+        document.querySelectorAll('.recommended-container_floor-aside .container.is-version8>*:nth-of-type(n + 8)').forEach(a => {
+            a.style.marginTop = "0";
+        });
+        document.querySelectorAll('.recommended-container_floor-aside .container.is-version8>*:nth-of-type(n + 13)').forEach(a => {
+            a.style.marginTop = "0";
+        });
+    };
+
+    checkMarginTop();
+
+    const observer = new MutationObserver(checkMarginTop);
+    observer.observe(document.body, { childList: true, subtree: true });
 })();
+
